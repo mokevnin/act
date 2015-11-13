@@ -1,3 +1,8 @@
+### Flow
+
+    make install
+    make development // open localhost:8080/todo
+
 ### Examples
 
     class Hello extends Component {
