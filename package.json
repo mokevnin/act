@@ -1,0 +1,29 @@
+{
+  "name": "act",
+  "version": "1.0.0",
+  "description": "frontend framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokevnin/act.git"
+  },
+  "keywords": [
+    "framework",
+    "spa"
+  ],
+  "author": "Kirill Mokevnin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mokevnin/act/issues"
+  },
+  "homepage": "https://github.com/mokevnin/act#readme",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-preset-es2015": "*",
+    "webpack": "*",
+    "babel-loader": "*"
+  }
+}
