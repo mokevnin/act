@@ -5,13 +5,13 @@
 
 ### Examples
 
-    class Hello extends Component {
+    class Hello extends Act.Component {
         render() {
             return `<div>Hello {this.ops.name}</div>`;
         }
     };
 
-    ActDOM.render(
+    Act.DOM.render(
         new Hello({name: "Bob"}),
         document.getElementById("container")
     );
