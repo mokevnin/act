@@ -1,7 +1,9 @@
 import Updater from "./Updater";
 
 export default class {
-    render(component, element) {
-        component.updater = new Updater(element);
+    static render(component, element) {
+        var updater = new Updater(element);
+        component.updater = updater;
+        updater.update(component.render());
     }
 }

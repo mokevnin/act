@@ -1,0 +1,10 @@
+h1 ToDo List
+form(onsubmit="component.handleAddTask(window.event)")
+    - handleTaskInput = component.handleTaskInput;
+    input(id="currentText" type=text placeholder="write you task"
+        onkeyup="component.handleTaskInput(window.event)" value=currentText)
+    button(type=submit) Add
+div
+    ol
+        each val in tasks
+            li(onclick="component.handleMarkTaskAsCompleted(window.event)")= val

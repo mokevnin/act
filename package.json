@@ -24,6 +24,13 @@
     "babel-core": "*",
     "babel-preset-es2015": "*",
     "webpack": "*",
-    "babel-loader": "*"
+    "webpack-dev-middleware": "*",
+    "express": "*",
+    "express-urlrewrite": "*",
+    "babel-loader": "*",
+    "file-loader": "*",
+    "raw-loader": "*",
+    "lodash": "*",
+    "jade": "*"
   }
 }
