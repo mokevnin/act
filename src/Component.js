@@ -12,11 +12,9 @@ export default class {
     }
 
     setState(newState) {
-        this.state = _.merge(this.state, newState, function(a, b) {
-            if (_.isArray(a)) {
-                return b;
-            }
-        });
+        _.forIn(newState, function(value, key) {
+            this.state[key] = value;
+        }, this);
 
         this.updater.update(this.render());
     }
